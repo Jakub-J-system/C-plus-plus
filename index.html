@@ -224,6 +224,51 @@ Obliczanie Silni</button>
 )">
 Objętości Bryły</button>
 
+<h2>6. Wskaźniki</h2>
+
+<button onclick="openCompiler(
+'https://raw.githubusercontent.com/Jakub-J-system/C-plus-plus/main/6.Wska%C5%BAniki/1.Wska%C5%BAnikiNaZmienne.cpp'
+)">
+Wskaźniki na zmienne</button>
+
+<button onclick="openCompiler(
+'https://raw.githubusercontent.com/Jakub-J-system/C-plus-plus/main/6.Wska%C5%BAniki/2.MinMax.cpp'
+)">
+Min i Max w tablicy float</button>
+
+<button onclick="openCompiler(
+'https://raw.githubusercontent.com/Jakub-J-system/C-plus-plus/main/6.Wska%C5%BAniki/3.Wska%C5%BAnikiTablice.cpp'
+)">
+Operacje na wskaźnikach i tablicach</button>
+
+<button onclick="openCompiler(
+'https://raw.githubusercontent.com/Jakub-J-system/C-plus-plus/main/6.Wska%C5%BAniki/4.ZgadywanieLosowejLiczby.cpp'
+)">
+Zgadywanie losowej liczby</button>
+
+<button onclick="openCompiler(
+'https://raw.githubusercontent.com/Jakub-J-system/C-plus-plus/main/6.Wska%C5%BAniki/5.RozbudowaProgramuLosowanieWPrzedziale.cpp'
+)">
+Rozbudowa Programu Losowanie W Przedziale</button>
+
+<h2>7. Struktury</h2>
+
+<button onclick="openCompiler(
+'https://raw.githubusercontent.com/Jakub-J-system/C-plus-plus/main/7.Struktury/1.Osoba.cpp'
+)">
+Podstawowe operacje na strukturach</button>
+
+<button onclick="openCompiler(
+'https://raw.githubusercontent.com/Jakub-J-system/C-plus-plus/main/7.Struktury/2.TablicaStruktur.cpp'
+)">
+Tablica struktur</button>
+
+<button onclick="openCompiler(
+'https://raw.githubusercontent.com/Jakub-J-system/C-plus-plus/main/7.Struktury/3.FunkcjaNaStrukturze.cpp'
+)">
+Funkcja na strukturze</button>
+
+
 
 <script>
 async function openCompiler(githubRawUrl) {
@@ -234,7 +279,7 @@ async function openCompiler(githubRawUrl) {
         await navigator.clipboard.writeText(code);
 
         alert(
-            "Kod zkopiowany do schowka.\n" +
+            "Kod skopiowany do schowka.\n" +
             "Kompiler się otworzy w nowej karcie.\n" +
             "Wklej kod za pomocą Ctrl+V."
         );

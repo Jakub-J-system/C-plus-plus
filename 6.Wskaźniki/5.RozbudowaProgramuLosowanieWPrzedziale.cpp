@@ -35,9 +35,9 @@ int main() {
 
     LosujTablice(tab, n, start, end);
 
-    cout << "Tablica: ";
+    //cout << "Tablica: ";
     for (int i = 0; i < n; i++)
-        cout << tab[i] << ", ";
+        //cout << tab[i] << ", ";
     cout << endl;
 
     int liczba, proby = 0;
