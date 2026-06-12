@@ -1,3 +1,3 @@
 # C plus plus
 
-https://raw.githubusercontent.com/Jakub-J-system/C-plus-plus/main/index.html
+Zrobiłem Stronę HTML za pomocą której można kopiować każdy plik z kodem jaki napisałem i wypróbować go w przeglądarkowym kompilatorze C++
